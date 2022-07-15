@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampIdProvider.UnitTests", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampIdProviderIntegrationTests", "..\RampIdProviderIntegrationTests\RampIdProviderIntegrationTests.csproj", "{027E4C13-C545-424A-BAFF-826243B301AA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyEventStateAdapterRampIdIntegrationTests", "..\DummyEventStateAdapterRampIdIntegrationTests\DummyEventStateAdapterRampIdIntegrationTests.csproj", "{AF98A1A5-18CE-4CA7-8BA4-26AD0A6BC024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{027E4C13-C545-424A-BAFF-826243B301AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{027E4C13-C545-424A-BAFF-826243B301AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{027E4C13-C545-424A-BAFF-826243B301AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF98A1A5-18CE-4CA7-8BA4-26AD0A6BC024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF98A1A5-18CE-4CA7-8BA4-26AD0A6BC024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF98A1A5-18CE-4CA7-8BA4-26AD0A6BC024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF98A1A5-18CE-4CA7-8BA4-26AD0A6BC024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
