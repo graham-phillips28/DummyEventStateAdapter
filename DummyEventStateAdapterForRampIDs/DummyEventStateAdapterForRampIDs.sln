@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyEventStateAdapterForRampIDs", "DummyEventStateAdapterForRampIDs.csproj", "{DBF74796-8D83-4813-80FD-C819B0221E24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DummyEventStateAdapterRampUnitTests", "..\DummyEventStateAdapterRampUnitTests\DummyEventStateAdapterRampUnitTests.csproj", "{237FDB06-07EA-47CC-BFCC-F7B12286ED5F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventStateAdapter.RampIdProvider", "..\EventStateAdapter.RampIdProvider\EventStateAdapter.RampIdProvider.csproj", "{168E04DE-95FA-4D63-8EF2-AB5EDA8F513E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampIdProvider.UnitTests", "..\RampIdProvider.UnitTests\RampIdProvider.UnitTests.csproj", "{E1C43535-1876-4C1A-8AD3-B52D3E5529DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RampIdProviderIntegrationTests", "..\RampIdProviderIntegrationTests\RampIdProviderIntegrationTests.csproj", "{027E4C13-C545-424A-BAFF-826243B301AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBF74796-8D83-4813-80FD-C819B0221E24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF74796-8D83-4813-80FD-C819B0221E24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF74796-8D83-4813-80FD-C819B0221E24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF74796-8D83-4813-80FD-C819B0221E24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{237FDB06-07EA-47CC-BFCC-F7B12286ED5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{237FDB06-07EA-47CC-BFCC-F7B12286ED5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{237FDB06-07EA-47CC-BFCC-F7B12286ED5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{237FDB06-07EA-47CC-BFCC-F7B12286ED5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{168E04DE-95FA-4D63-8EF2-AB5EDA8F513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{168E04DE-95FA-4D63-8EF2-AB5EDA8F513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{168E04DE-95FA-4D63-8EF2-AB5EDA8F513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{168E04DE-95FA-4D63-8EF2-AB5EDA8F513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1C43535-1876-4C1A-8AD3-B52D3E5529DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1C43535-1876-4C1A-8AD3-B52D3E5529DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1C43535-1876-4C1A-8AD3-B52D3E5529DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1C43535-1876-4C1A-8AD3-B52D3E5529DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027E4C13-C545-424A-BAFF-826243B301AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027E4C13-C545-424A-BAFF-826243B301AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027E4C13-C545-424A-BAFF-826243B301AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027E4C13-C545-424A-BAFF-826243B301AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {013C0DC8-6038-433C-995A-0EB36EF5A692}
+	EndGlobalSection
+EndGlobal
